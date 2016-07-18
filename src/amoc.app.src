@@ -9,7 +9,8 @@
                   lager,
                   exometer,
                   lhttpc,
-                  ssl
+                  ssl,
+				  cowboy
                  ]},
   {mod, { amoc_app, []}},
   {env, [{repeat_interval, 60000},
